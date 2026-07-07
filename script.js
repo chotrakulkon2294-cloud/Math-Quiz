@@ -87,7 +87,7 @@ function attack() {
 // ฟังก์ชันสุ่มมอนสเตอร์ (ตัวอย่างง่ายๆ)
 function spawnMonster() {
     monsterHp = 50; // รีเซ็ต HP มอนสเตอร์
-    monsterImage.src = 'images/monster2.png'; // เปลี่ยนรูปมอนสเตอร์
+    monsterImage.src = 'testproblem1.png';// เปลี่ยนรูปมอนสเตอร์
 }
 
 // ผูกฟังก์ชันโจมตีกับปุ่ม
