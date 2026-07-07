@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Quest RPG</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Math Quest RPG</h1>
+        
+        <div class="player-status">
+            <p>Player HP: <span id="player-hp">100</span>/100</p>
+            <p>Score: <span id="player-score">0</span></p>
+        </div>
+
+        <div class="battle-arena">
+            <div id="monster-container">
+                <img id="monster-image" src="images/monster1.png" alt="Monster">
+                <p>Monster HP: <span id="monster-hp">50</span>/50</p>
+            </div>
+            
+            <div id="problem-container">
+                <img id="problem-image" src="images/problem1.png" alt="Math Problem">
+            </div>
+        </div>
+
+        <div class="input-area">
+            <input type="number" id="answer-input" placeholder="คำตอบคือ...">
+            <button id="submit-button">โจมตี!</button>
+        </div>
+
+        <div id="game-message"></div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
