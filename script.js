@@ -12,10 +12,9 @@ let monsterDamage = 5;
 // ข้อมูลโจทย์
 let currentProblemIndex = 0;
 const problems = [
-    { imageUrl: 'images/problem1.png', answer: 10 },
-    { imageUrl: 'images/problem2.png', answer: 25 },
-    // เพิ่มโจทย์ที่นี่
+    { imageUrl: 'testproblem1.png', answer: 8 }, // แก้ไขตรงนี้ให้ชื่อตรงกับรูป และคำตอบคือ 8
 ];
+    // เพิ่มโจทย์ที่นี่
 
 // ดึง element ต่างๆ
 const playerHpSpan = document.getElementById('player-hp');
